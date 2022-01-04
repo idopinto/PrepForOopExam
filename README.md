@@ -3,7 +3,6 @@ This repository will contain useful matriel and source code for OOP exam.
 
 # Index
 1.[Basic Java syntax](#Basic-Java-Syntax)
-   - Overview
    - Data Types
    - Declaring Variables in Java
    - Arrays
@@ -18,9 +17,9 @@ This repository will contain useful matriel and source code for OOP exam.
    - Useful libraries
    - Packages
    - Modules
-2. Basic Compilation process in Java and Jshell
+2. [Basic Compilation process in Java] (#Basic-Compilation-process-in-Java)
    - JVM 
-3. Basic OOP terminology
+3. [Basic OOP terminology] (#Basic-OOP-terminology)
    - information hiding
    - Minimal API
    - encapsulation
@@ -74,3 +73,9 @@ This repository will contain useful matriel and source code for OOP exam.
 
 # Basic Java Syntax
 blabla
+
+# Basic Compilation process in Java
+
+# Basic OOP terminology
+
+
