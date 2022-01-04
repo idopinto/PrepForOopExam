@@ -104,10 +104,19 @@ function test() {
    - [Object](https://www.geeksforgeeks.org/classes-objects-java/) 
    
       It is a basic unit of Object-Oriented Programming and represents the real life entities.
+      
       An object consists of : 
-      State: It is represented by attributes of an object. It also reflects the properties of an object.
-      Behavior: It is represented by methods of an object. It also reflects the response of an object with other objects.
-      Identity: It gives a unique name to an object and enables one object to interact with other objects.
+      
+      **State**: It is represented by attributes of an object. It also reflects the properties of an object.
+      
+      **Behavior**: It is represented by methods of an object. It also reflects the response of an object with other objects.
+      
+      **Identity**: It gives a unique name to an object and enables one object to interact with other objects.
+      
+      [Classes & Objects | Java | Mike Dane](https://www.youtube.com/watch?v=Mm06BuD3PlY)
+      
+   -[Class](https://www.geeksforgeeks.org/classes-objects-java/)
+   
 
 
 # Basic OOP principles
@@ -115,6 +124,32 @@ function test() {
 # Exceptions
 
 # Java collections
+
+![alt text](https://i.stack.imgur.com/NaqeR.png)
+
+![alt text](https://i.stack.imgur.com/sHrJK.png)
+
+- [The Collection FrameWork](https://www.youtube.com/watch?v=pbOd_GDDnQk&feature=emb_title)
+- 
+  [java-collection overview](https://www.javadevjournal.com/java/java-collections/)
+  
+ - [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
+  
+   **Interface Map<K,V>**
+   **Highlights**
+   1. An object that maps keys to values.
+   2. A map cannot contain duplicate keys.
+   3. each key can map to at most one value.
+   
+   Important implementing classes:
+   
+   -[HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
+ - [List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)
+   - [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+ - [Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)
+   - [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
+ - [Time Complexsity table](https://gist.github.com/psayre23/c30a821239f4818b0709)
+
 
 # Design Patterns
 
