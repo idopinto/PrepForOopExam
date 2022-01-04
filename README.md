@@ -134,29 +134,34 @@ function test() {
 - [Java Collection Playlist tutorial](https://youtu.be/oMVRE-U6TTc)
 
  I'll leave here Javadoc links for every important data structure.
- - [**Interface Map<K,V>**](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
+ - [Interface Map<K,V>](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
    1. An object that maps keys to values.
    2. A map cannot contain duplicate keys.
    3. each key can map to at most one value.
    
-   -[HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
+   - [HashMap<K,V>](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
    1. Hash table based implementation of the Map interface.
    2. This implementation provides all of the optional map operations, and permits null values and the null key.
    3. This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time.
    
- - [**Interface List<E>](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)
+ - [List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)
    An ordered collection (also known as a sequence).
    1. The user of this interface has precise control over where in the list each element is inserted.
    2. The user can access elements by their integer index (position in the list)
    3. The user can search for elements in the list.
  
-   - [Class ArrayList<E>](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+   - [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
    1. Resizable-array implementation of the List interface.
    2. Implements all optional list operations, and permits all elements, including null. 
    3. In addition to implementing the List interface, this class provides methods to manipulate the size of the array that is used internally to store the list.
  
- - [Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)
+ - [Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html) is A collection that contains no duplicate elements. 
+   1. More formally, sets contain no pair of elements e1 and e2 such that e1.equals(e2), and at most one null element.
+   2. As implied by its name, this interface models the mathematical set abstraction.
    - [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
+   1. This class implements the Set interface, backed by a hash table (actually a HashMap instance). 
+   1. It makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.
+   2. This class permits the null element.
  - [Time Complexsity table](https://gist.github.com/psayre23/c30a821239f4818b0709)
 
 
