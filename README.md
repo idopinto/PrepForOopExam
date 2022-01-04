@@ -17,9 +17,9 @@ This repository will contain useful matriel and source code for OOP exam.
    - Useful libraries
    - Packages
    - Modules
-2. [Basic Compilation process in Java] (#Basic-Compilation-process-in-Java)
+2. [Basic Compilation process in Java](#Basic-Compilation-process-in-Java)
    - JVM 
-3. [Basic OOP terminology] (#Basic-OOP-terminology)
+3. [Basic OOP terminology](#Basic-OOP-terminology)
    - information hiding
    - Minimal API
    - encapsulation
@@ -29,16 +29,15 @@ This repository will contain useful matriel and source code for OOP exam.
    - Composition
    - Interfaces
    - Abstract class
-4. Basic OOP principles
+4. [Basic OOP principles](#Basic-OOP-principles)
    - Program to interface not implementation principle
    - The single choice Principle
    - Modularity principle
    - Open-Closed prinicple
    - Leskov substituion principle
-6. Exceptions
-7. Java collections
-8. Javadoc
-9. Design Patterns
+6. [Exceptions](#Exceptions)
+7. [Java collections](#Java collections)
+8. [Design Patterns](#Design-Patterns)
     - Factory
     - Decorator
     - Iterator
@@ -49,27 +48,27 @@ This repository will contain useful matriel and source code for OOP exam.
     - Facade
     - Dependecy Injection
     - Memento
-10. Generics
+9. [Generics](#Generics)
     - Wildcard
     - Erasure
-11. Functional Programming
+10. [Functional Programming](#Functional-Programming)
     - Local and Anonymous Classes
     - Lambdas
     - Functional Interfaces
     - Java.util.functions
     - Closures
     - Callbacks
-12. Algorithms
+11. [Algorithms](#Algorithms)
     - Dynamic Programming
     - Greedy algorithms
-13. UML
-14. Advanced topics in Java
+12. [UML](#UML)
+13. [Advanced topics in Java](#Advanced-topics-in-java)
     - Serialization
     - Reflection
     - Copy Constructor
     - Clone
     - Frameworks (Spring)
-15. Regex
+14. [Regex](#Regex)
 
 # Basic Java Syntax
 blabla
@@ -78,4 +77,23 @@ blabla
 
 # Basic OOP terminology
 
+# Basic OOP principles
+
+# Exceptions
+
+# Java collections
+
+# Design Patterns
+
+# Generics
+
+# Functional Programming
+
+# Algorithms
+
+# UML
+
+# Advanced topics in Java
+
+# Regex
 
