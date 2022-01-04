@@ -145,6 +145,84 @@ function test() {
 
 # Algorithms
 
+## MinSumPath LeetCode question
+```
+public class MinSumPath {
+
+    /***
+     * Given a grid of integers of size N x M finds the minimal sum of the path from the upper left corner
+     * (0,0) to the bottom right corner (N-1, M-1)
+     * @param grid
+     * @return minimal sum of said path
+     */
+    public static int CalculateMinSumPath(int[][] grid){
+        /* Implement here */
+        
+    }
+}
+```
+[Explanation](https://www.youtube.com/watch?v=t1shZ8_s6jc)
+
+## Unique morse code words
+```
+public class MinSumPath {
+
+    /***
+     * Given a grid of integers of size N x M finds the minimal sum of the path from the upper left corner
+     * (0,0) to the bottom right corner (N-1, M-1)
+     * @param grid
+     * @return minimal sum of said path
+     */
+    public static int CalculateMinSumPath(int[][] grid){
+        /* Implement here */
+        
+    }
+}
+```
+
+
+[LeetCode Reference](https://leetcode.com/problems/unique-morse-code-words/)
+```
+ // note that there is a duplicate iff there is cycle in the path created by
+ // numList[0] -> numList[numList[0]] -> numList[numList[numList[0]]] -> ...
+ // and if cycle does indeed exit then the duplicate is the first number that created the cycle.
+ // the reason for that is that we refer to the array values as pointers to the array's indexes, so if x is a
+ // duplicate then multiply nodes in the graph point to x.
+ // the strategy is as follows:
+ // 1. find the cycle -> 2. find the first number that created the cycle -> 3.return this number.
+ ```
+ ## Find duplicate
+
+```
+/*
+* Finds and returns duplicate value in integer array of size n+1 .
+* which holds values from 1-n.
+* assuming there is one duplicate and can appear more than once.
+*/
+public static int findDuplicate(int[] numList) {
+// case there is no duplicate is the number list length is 0 or 1
+if (numList.length <= 1) {return -1;}
+
+int regularPointer = numList[0];
+int superPointer = numList[numList[0]];
+
+while (superPointer != regularPointer) {
+regularPointer = numList[regularPointer];
+superPointer = numList[numList[superPointer]];
+}
+
+ while (superPointer != regularPointer) {
+ regularPointer = numList[regularPointer];
+ superPointer = numList[superPointer];
+ }
+ return regularPointer;
+ }
+
+}
+```
+[LeetCode Reference](https://leetcode.com/problems/find-the-duplicate-number/)
+[Explanation](https://www.youtube.com/watch?v=wjYnzkAhcNk)
+
 # UML
 
 # Advanced topics in Java
