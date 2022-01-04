@@ -2,8 +2,7 @@
 This repository will contain useful matriel and source code for OOP exam.
 
 # Index
-1.[Basic Java syntax] [README](PrepForOopExam/README.md)
-
+1.[Basic Java syntax](#Basic-Java-Syntax)
    - Overview
    - Data Types
    - Declaring Variables in Java
