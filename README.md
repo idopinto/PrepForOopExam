@@ -13,10 +13,9 @@ This repository will contain useful matriel and source code for OOP exam.
      - Logical Operators
      - Comparison Operators
    - Java Program Structure
+   - Visibility Modifiers
    - Enum
-   - Random
-   - Math
-   - String
+   - Useful libraries
    - Packages
    - Modules
 2. Basic Compilation process in Java and Jshell
@@ -51,26 +50,25 @@ This repository will contain useful matriel and source code for OOP exam.
     - Facade
     - Dependecy Injection
     - Memento
-11. Generics
+10. Generics
     - Wildcard
     - Erasure
-13. Functional Programming
+11. Functional Programming
     - Local and Anonymous Classes
     - Lambdas
     - Functional Interfaces
     - Java.util.functions
     - Closures
     - Callbacks
-14. Algorithms
+12. Algorithms
     - Dynamic Programming
     - Greedy algorithms
-15. UML
-16. Advanced topics in Java
-   - Covariance of arrays
-   - Serialization
-   - Reflection
-   - Copy Constructor
-   - Clone
-   - Frameworks (Spring)
-17. Regex
+13. UML
+14. Advanced topics in Java
+    - Serialization
+    - Reflection
+    - Copy Constructor
+    - Clone
+    - Frameworks (Spring)
+15. Regex
 
