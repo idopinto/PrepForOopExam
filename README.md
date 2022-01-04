@@ -1,5 +1,25 @@
 # PrepForOopExam
-This repository will contain useful matriel and source code for OOP exam.
+Hello everyone! 
+ 
+I assume that you're currently studying for your OOP exam and you are probably tired from exerice 5 ,
+
+don't know how or from where to get all the needed information.
+
+ME TOO! 
+
+so that's why I thought it can be good idea to create this repo and let EVERYONE share his/her favorite youtube playlist, website or any useful OOP related content.
+
+The rules are simple:
+
+1.
+
+2.
+
+3. Enjoy
+
+Feel free to contribute! 💻
+
+
 
 # Index
 1.[Basic Java syntax](#Basic-Java-Syntax)
@@ -71,11 +91,24 @@ This repository will contain useful matriel and source code for OOP exam.
 14. [Regex](#Regex)
 
 # Basic Java Syntax
-blabla
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 # Basic Compilation process in Java
 
 # Basic OOP terminology
+## Object, Class, Instance, Attributes
+   - [Object](https://www.geeksforgeeks.org/classes-objects-java/) 
+   
+      It is a basic unit of Object-Oriented Programming and represents the real life entities.
+      An object consists of : 
+      State: It is represented by attributes of an object. It also reflects the properties of an object.
+      Behavior: It is represented by methods of an object. It also reflects the response of an object with other objects.
+      Identity: It gives a unique name to an object and enables one object to interact with other objects.
+
 
 # Basic OOP principles
 
