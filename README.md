@@ -161,27 +161,25 @@ public class MinSumPath {
     }
 }
 ```
+[LeetCode Reference](https://leetcode.com/problems/minimum-path-sum/)
 [Explanation](https://www.youtube.com/watch?v=t1shZ8_s6jc)
 
 ## Unique morse code words
 ```
-public class MinSumPath {
-
-    /***
-     * Given a grid of integers of size N x M finds the minimal sum of the path from the upper left corner
-     * (0,0) to the bottom right corner (N-1, M-1)
-     * @param grid
-     * @return minimal sum of said path
-     */
-    public static int CalculateMinSumPath(int[][] grid){
+/**
+ * Given list of words this function returns how many unique code morse is in the list.
+ * note. if two words are translated equally then their code will count once.
+ * this algorithm should run in O(S) time - complexity when S = the sum of the length of each word in the list.
+ * @param words Array of strings
+ * @return # of unique code morse in words.
+ */
+public static int buildUniqueMorseCodeTable(String[] words, String[] morseSet) {
         /* Implement here */
-        
-    }
+
 }
 ```
-
-
 [LeetCode Reference](https://leetcode.com/problems/unique-morse-code-words/)
+[Explanation](https://www.youtube.com/watch?v=ZF7KWiYsI6I)
 ```
  // note that there is a duplicate iff there is cycle in the path created by
  // numList[0] -> numList[numList[0]] -> numList[numList[numList[0]]] -> ...
