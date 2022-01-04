@@ -130,20 +130,18 @@ function test() {
 ![alt text](https://i.stack.imgur.com/sHrJK.png)
 
 - [The Collection FrameWork](https://www.youtube.com/watch?v=pbOd_GDDnQk&feature=emb_title)
-- 
-  [java-collection overview](https://www.javadevjournal.com/java/java-collections/)
-  
+- [Java Collection Overview article](https://www.javadevjournal.com/java/java-collections/)
+- [Java Collection Playlist tutorial](https://youtu.be/oMVRE-U6TTc)
+
+ I'll leave here Javadoc links for every important data structure.
  - [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
-  
+   -[HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
+   
    **Interface Map<K,V>**
    **Highlights**
    1. An object that maps keys to values.
    2. A map cannot contain duplicate keys.
    3. each key can map to at most one value.
-   
-   Important implementing classes:
-   
-   -[HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
  - [List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)
    - [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
  - [Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)
