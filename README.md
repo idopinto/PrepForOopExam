@@ -2,7 +2,7 @@
 This repository will contain useful matriel and source code for OOP exam.
 
 # Index
-1. Basic java syntax
+1.[Basic Java syntax](Basic Java Syntax/README.md)
    - Overview
    - Data Types
    - Declaring Variables in Java
@@ -72,3 +72,5 @@ This repository will contain useful matriel and source code for OOP exam.
     - Frameworks (Spring)
 15. Regex
 
+# Basic Java Syntax
+blabla
