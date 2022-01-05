@@ -11,6 +11,8 @@ so that's why I thought it can be good idea to create this repo and let EVERYONE
 
 Feel free to contribute! 💻
 
+### [Exams](https://github.com/idopinto/PrepForOopExam/tree/main/Exams)
+### [TA](https://github.com/idopinto/PrepForOopExam/tree/main/TA)
 
 
 # Index
