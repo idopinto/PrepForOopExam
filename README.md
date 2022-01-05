@@ -13,7 +13,8 @@ Feel free to contribute! 💻
 
 ### [Exams](https://github.com/idopinto/PrepForOopExam/tree/main/Exams)
 ### [TA](https://github.com/idopinto/PrepForOopExam/tree/main/TA)
-
+### [Course Drive](https://drive.google.com/drive/folders/0B4NFaiXelmmkZG1LQkdmbHRya3M?resourcekey=0-uAF0XJ4UAeP6GAogU_HX1A)
+### [Summary]()
 
 # Index
 1.[Basic Java syntax](#Basic-Java-Syntax)
