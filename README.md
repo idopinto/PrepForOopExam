@@ -13,7 +13,7 @@ Feel free to contribute! 💻
 ### [TA](https://github.com/idopinto/PrepForOopExam/tree/main/TA)
 ### [Course Drive](https://drive.google.com/drive/folders/0B4NFaiXelmmkZG1LQkdmbHRya3M?resourcekey=0-uAF0XJ4UAeP6GAogU_HX1A)
 ### [Summary](https://github.com/idopinto/PrepForOopExam/tree/main/Notes)
-
+### [Campus.il Course website (Hebrew)](https://courses.campus.gov.il/courses/course-v1:HUJI+ACD_RFP4_HUJI_OOP+2019_1/info)
 # Index
 1.[Basic Java syntax](#Basic-Java-Syntax)
    - Data Types
