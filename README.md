@@ -79,8 +79,6 @@ Feel free to contribute! 💻
     - Closures
     - Callbacks
 11. [Algorithms](#Algorithms)
-    - Dynamic Programming
-    - Greedy algorithms
 12. [UML](#UML)
 13. [Advanced topics in Java](#Advanced-topics-in-java)
     - Serialization
@@ -179,7 +177,7 @@ function test() {
   ## [Dependecy Injection](https://java-design-patterns.com/patterns/dependency-injection/) -> creational pattern
    [DI pattern](https://www.youtube.com/watch?v=tW6UHD81SG0)
   
-
+🔼[Back To Top](#Index)
 
 # Generics
 
