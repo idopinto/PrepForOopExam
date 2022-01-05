@@ -1,13 +1,11 @@
 # PrepForOopExam
 Hello everyone! 
  
-I assume that you're currently studying for your OOP exam and you are probably tired from exerice 5 ,
-
-don't know how or from where to get all the needed information.
+I assume that you're currently studying for your OOP exam and you are probably tired from exerice 5 , don't know how or from where to get all the needed information.
 
 ME TOO! 
 
-so that's why I thought it can be good idea to create this repo and let EVERYONE share his/her favorite youtube playlist, website or any useful OOP related content.
+So that's why I thought it can be a good idea to create this repo and let EVERYONE share his/her favorite youtube playlist, website or any useful OOP related content.
 
 Feel free to contribute! 💻
 
