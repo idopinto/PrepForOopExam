@@ -132,7 +132,7 @@ Feel free to contribute! 💻
        
        Expose only the moving parts that need to change, hide everything else.
   ```
-   - [The Leskov substituion principle](https://www.youtube.com/watch?v=Orhu0x5aplI)
+  - [The Leskov substituion principle](https://www.youtube.com/watch?v=Orhu0x5aplI) 
     ```
     Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 
