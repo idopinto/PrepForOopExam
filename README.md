@@ -100,7 +100,7 @@ Feel free to contribute! 💻
 🔼[Back To Top](#Index)
 
 # Basic OOP principles
- # [ALL-IN-ONE](https://java-design-patterns.com/principles/#openclosed-principle) all the OOP prinicples we've learned and more!    
+ ### [ALL-IN-ONE](https://java-design-patterns.com/principles/#openclosed-principle) all the OOP prinicples we've learned and more!    
    ### [SOLID](https://en.wikipedia.org/wiki/SOLID)
    - [The Single Responsibility Principle](https://www.youtube.com/watch?v=DAD2oMWDWNc)
    ```
