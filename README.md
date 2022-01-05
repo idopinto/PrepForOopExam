@@ -9,14 +9,6 @@ ME TOO!
 
 so that's why I thought it can be good idea to create this repo and let EVERYONE share his/her favorite youtube playlist, website or any useful OOP related content.
 
-The rules are simple:
-
-1.
-
-2.
-
-3. Enjoy
-
 Feel free to contribute! 💻
 
 
@@ -89,11 +81,6 @@ Feel free to contribute! 💻
 14. [Regex](#Regex)
 
 # Basic Java Syntax
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
 
 🔼[Back To Top](#Index)
 
