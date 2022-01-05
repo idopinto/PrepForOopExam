@@ -102,7 +102,7 @@ Feel free to contribute! 💻
  ### [ALL-IN-ONE](https://java-design-patterns.com/principles/#openclosed-principle) all the OOP prinicples we've learned and more!    
    ### [SOLID](https://en.wikipedia.org/wiki/SOLID)
    - [The Single Responsibility Principle](https://www.youtube.com/watch?v=DAD2oMWDWNc)
-   ```
+  
        A class should never have more than one reason to change.
        
       every class should have only one responsibility!
@@ -111,26 +111,21 @@ Feel free to contribute! 💻
       
       Responsibility can be defined as a reason to change, so a class or module should have one, and only one, reason to change.
 
-      Why? 
+      **Why?** Maintainability: changes should be necessary only in one module or class.
       
-      Maintainability: changes should be necessary only in one module or class.
-      How?
-      Apply Curly's Law which means choosing a single, clearly defined goal for any particular bit of code: Do One Thing.
-   ```
+      **How?** Apply Curly's Law which means choosing a single, clearly defined goal for any particular bit of code: Do One Thing.
+   
    - The Open-Closed prinicple
-   ```
-     - Software entities should be open for extension, but closed for modification
-     I.e. such an entity can allow its behavior to be modified without altering its source code.
-       Why?
+   
+     Software entities should be open for extension, but closed for modification
+     i.e. such an entity can allow its behavior to be modified without altering its source code.
+     
+     **Why?**  Improve maintainability and stability by minimizing changes to existing code.
        
-       Improve maintainability and stability by minimizing changes to existing code.
-       
-       How?
-
-       Write classes that can be extended (as opposed to classes that can be modified).
-       
-       Expose only the moving parts that need to change, hide everything else.
-  ```
+     **How?** Write classes that can be extended (as opposed to classes that can be modified).
+     
+     Expose only the moving parts that need to change, hide everything else.
+ 
   - [The Leskov substituion principle](https://www.youtube.com/watch?v=Orhu0x5aplI) 
     ```
     Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
@@ -144,6 +139,7 @@ Feel free to contribute! 💻
 🔼[Back To Top](#Index)
 
 # Exceptions
+
 
 🔼[Back To Top](#Index)
 
