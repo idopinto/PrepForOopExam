@@ -255,7 +255,7 @@ superPointer = numList[numList[superPointer]];
 [LeetCode Reference](https://leetcode.com/problems/find-the-duplicate-number/)
 [Explanation](https://www.youtube.com/watch?v=wjYnzkAhcNk)
 
-[Back To Top](#Index)
+                                                                                                                                                  🔼[Back To Top](#Index)
 
 
 
