@@ -175,36 +175,36 @@ Feel free to contribute! 💻
 # Design Patterns
 [ALL-IN-ONE](https://java-design-patterns.com/patterns/) awesome website for diving into design patterns!
 
-  ## [Factory](https://java-design-patterns.com/patterns/factory/) -> Creational pattern
+  #### [Factory](https://java-design-patterns.com/patterns/factory/) -> Creational pattern
    [Dan Nirel - Factory](https://www.youtube.com/watch?time_continue=280&v=5xuoWMMr_mo&feature=emb_title)
   
-  ## [Decorator](https://java-design-patterns.com/patterns/decorator/) -> structural pattern
+  #### [Decorator](https://java-design-patterns.com/patterns/decorator/) -> structural pattern
    [Derek Banas - Decorator](https://www.youtube.com/watch?v=j40kRwSm4VE)
   
-  ## [Iterator](https://java-design-patterns.com/patterns/iterator/) -> behavioral pattern
+  #### [Iterator](https://java-design-patterns.com/patterns/iterator/) -> behavioral pattern
    [Derek Banas - Iterator](https://www.youtube.com/watch?v=VKIzUuMdmag&list=PLF206E906175C7E07&index=17)
 
-  ## [Strategy](https://java-design-patterns.com/patterns/strategy/) -> behavioral pattern
+  #### [Strategy](https://java-design-patterns.com/patterns/strategy/) -> behavioral pattern
    [Derek Banas - Strategy](https://www.youtube.com/watch?v=j40kRwSm4VE)
 
-  ## [Singleton](https://java-design-patterns.com/patterns/singleton/) -> creational pattern
+  #### [Singleton](https://java-design-patterns.com/patterns/singleton/) -> creational pattern
   [Derek Banas - Singleton](https://www.youtube.com/watch?v=NZaXM67fxbs&list=PLF206E906175C7E07&index=7)
 
-  ## [Observer](https://java-design-patterns.com/patterns/observer/) -> behavioral pattern
+  #### [Observer](https://java-design-patterns.com/patterns/observer/) -> behavioral pattern
    [Derek Banas - Observer](https://www.youtube.com/watch?v=wiQdrH2YpT4&list=PLF206E906175C7E07&index=4)
    [How The Observer Pattern Works](https://www.youtube.com/watch?v=WRkw0l72BL4)
 
-  ## [State](https://java-design-patterns.com/patterns/state/) ->behavioral pattern
+  #### [State](https://java-design-patterns.com/patterns/state/) ->behavioral pattern
 
    [Derek Banas - State](https://www.youtube.com/watch?v=MGEx35FjBuo&list=PLF206E906175C7E07&index=20)
 
-  ## [Memento](https://java-design-patterns.com/patterns/memento/) -> behavioral pattern
+  #### [Memento](https://java-design-patterns.com/patterns/memento/) -> behavioral pattern
    [Derek Banas - Memento](https://www.youtube.com/watch?v=jOnxYT8Iaoo&list=PLF206E906175C7E07&index=25)
 
-  ## [Facade](https://java-design-patterns.com/patterns/facade/) -> structural pattern
+  #### [Facade](https://java-design-patterns.com/patterns/facade/) -> structural pattern
    [Derek Banas - Facade](https://www.youtube.com/watch?v=B1Y8fcYrz5o&list=PLF206E906175C7E07&index=14)
   
-  ## [Dependecy Injection](https://java-design-patterns.com/patterns/dependency-injection/) -> creational pattern
+  #### [Dependecy Injection](https://java-design-patterns.com/patterns/dependency-injection/) -> creational pattern
    [DI pattern](https://www.youtube.com/watch?v=tW6UHD81SG0)
   
 🔼[Back To Top](#Index)
