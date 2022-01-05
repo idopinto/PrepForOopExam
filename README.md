@@ -98,15 +98,14 @@ function test() {
 🔼[Back To Top](#Index)
 
 # Basic Compilation process in Java
-
+### [JVM vs JRE vs JDK](https://www.youtube.com/watch?v=RYd_hagCiVk)
+### [compilation process](https://www.geeksforgeeks.org/compilation-execution-java-program/)
 🔼[Back To Top](#Index)
 
 # Basic OOP terminology
 ## Object, Class, Instance, Attributes
    - [Object](https://www.geeksforgeeks.org/classes-objects-java/) is a basic unit of Object-Oriented Programming and represents the real life entities.
-   - 
    - [Class](https://www.geeksforgeeks.org/classes-objects-java/)
-   - 
    [Classes & Objects | Java | Mike Dane](https://www.youtube.com/watch?v=Mm06BuD3PlY)
 
 🔼[Back To Top](#Index)
@@ -149,7 +148,7 @@ function test() {
   ## [Factory](https://java-design-patterns.com/patterns/factory/) -> Creational pattern
    [Dan Nirel - Factory](https://www.youtube.com/watch?time_continue=280&v=5xuoWMMr_mo&feature=emb_title)
   
-  ## [Decorator](https://java-design-patterns.com/patterns/decorator/) -> structural
+  ## [Decorator](https://java-design-patterns.com/patterns/decorator/) -> structural pattern
    [Derek Banas - Decorator](https://www.youtube.com/watch?v=j40kRwSm4VE)
   
   ## [Iterator](https://java-design-patterns.com/patterns/iterator/) -> behavioral pattern
@@ -163,6 +162,7 @@ function test() {
 
   ## [Observer](https://java-design-patterns.com/patterns/observer/) -> behavioral pattern
    [Derek Banas - Observer](https://www.youtube.com/watch?v=wiQdrH2YpT4&list=PLF206E906175C7E07&index=4)
+   [How The Observer Pattern Works](https://www.youtube.com/watch?v=WRkw0l72BL4)
 
   ## [State](https://java-design-patterns.com/patterns/state/) ->behavioral pattern
 
