@@ -97,7 +97,11 @@ function test() {
 }
 ```
 
+🔼[Back To Top](#Index)
+
 # Basic Compilation process in Java
+
+🔼[Back To Top](#Index)
 
 # Basic OOP terminology
 ## Object, Class, Instance, Attributes
@@ -107,11 +111,15 @@ function test() {
    - 
    [Classes & Objects | Java | Mike Dane](https://www.youtube.com/watch?v=Mm06BuD3PlY)
 
-
+🔼[Back To Top](#Index)
 
 # Basic OOP principles
 
+🔼[Back To Top](#Index)
+
 # Exceptions
+
+🔼[Back To Top](#Index)
 
 # Java collections
 
@@ -175,7 +183,11 @@ function test() {
 
 # Generics
 
+🔼[Back To Top](#Index)
+
 # Functional Programming
+
+🔼[Back To Top](#Index)
 
 # Algorithms
 
@@ -255,15 +267,17 @@ superPointer = numList[numList[superPointer]];
 [LeetCode Reference](https://leetcode.com/problems/find-the-duplicate-number/)
 [Explanation](https://www.youtube.com/watch?v=wjYnzkAhcNk)
 
-
-<div style="text-align: right"> 🔼[Back To Top](#Index) </div>
-
-
-
+🔼[Back To Top](#Index)
 
 # UML
 
+🔼[Back To Top](#Index)
+
 # Advanced topics in Java
 
+🔼[Back To Top](#Index)
+
 # Regex
+
+🔼[Back To Top](#Index)
 
