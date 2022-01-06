@@ -231,40 +231,65 @@ Feel free to contribute! 💻
 
 🔼[Back To Top](#Index)
 
-# Algorithms
+# [Algorithms](https://github.com/idopinto/PrepForOopExam/blob/main/Exam%20Algorithms/Solutions.java)
 
 ## MinSumPath LeetCode question
 ```
-public class MinSumPath {
-
-    /***
+ /***
      * Given a grid of integers of size N x M finds the minimal sum of the path from the upper left corner
      * (0,0) to the bottom right corner (N-1, M-1)
-     * @param grid
+     * @param grid - assuming nut NULL.
      * @return minimal sum of said path
      */
     public static int CalculateMinSumPath(int[][] grid){
-        /* Implement here */
-        
+        // this solution uses the same grid as the DP array. You can also create a new grid and fill it.
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                // if i = j = 0 do nothing.
+                if (i == 0 && j != 0)
+                    grid[i][j] += grid[i][j - 1];
+                else if (i != 0 && j == 0)
+                    grid[i][j] += grid[i - 1][0];
+                else if (i != 0 && j != 0)
+                    grid[i][j] += Math.min(grid[i - 1][j], grid[i][j - 1]);
+            }
+        }
+        // return grid[n-1, m-1]
+        return grid[grid.length - 1][grid[0].length - 1];
     }
 }
 ```
 [LeetCode Reference](https://leetcode.com/problems/minimum-path-sum/)
+
 [Explanation](https://www.youtube.com/watch?v=t1shZ8_s6jc)
 
 ## Unique morse code words
 ```
-/**
- * Given list of words this function returns how many unique code morse is in the list.
- * note. if two words are translated equally then their code will count once.
- * this algorithm should run in O(S) time - complexity when S = the sum of the length of each word in the list.
- * @param words Array of strings
- * @return # of unique code morse in words.
- */
-public static int buildUniqueMorseCodeTable(String[] words, String[] morseSet) {
-        /* Implement here */
-
-}
+  // all characters' morse code representation, a to z.
+    private static final String[] MORSE_CODES = {".-", "-...", "-.-.", "-..",".", "..-.","--.","....","..",".---",
+            "-.-", ".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
+    /**
+     * find amount of unique morse code translations can be extracted from a list of words.
+     * @param words array of strings
+     * @return amount of unique morse codes.
+     */
+    public static int uniqueMorseRepresentations(String[] words) {
+        // initialize hashSet for the morse translations.
+        Set<String> uniqueMorse = new HashSet<>();
+        for (String word : words) {
+            // build string one char at a time.
+            StringBuilder morse = new StringBuilder();
+            for (int i = 0; i < word.length(); i++) {
+                // translate character to morse using the MORSE_CODE array.
+                char c = word.charAt(i);
+                morse.append(MORSE_CODES[c - 'a']);
+            }
+            // add the translation to hashSet.
+            uniqueMorse.add(morse.toString());
+        }
+        // size of set is number of unique morse codes.
+        return uniqueMorse.size();
+    }
 ```
 [LeetCode Reference](https://leetcode.com/problems/unique-morse-code-words/)
 
@@ -273,45 +298,37 @@ public static int buildUniqueMorseCodeTable(String[] words, String[] morseSet) {
  ## Find duplicate
 
 ```
-/*
-* Finds and returns duplicate value in integer array of size n+1 .
-* which holds values from 1-n.
-* assuming there is one duplicate and can appear more than once.
-*/
-public static int findDuplicate(int[] numList) {
-// case there is no duplicate is the number list length is 0 or 1
-if (numList.length <= 1) {return -1;}
+   /**
+     * method finds a duplicate number in an array of N+1 ints, where numbers are in range 1->N.
+     * It is important that all numbers are positive.
+     * @param numList a list of N+1 numbers in range 1->N.
+     * @return the duplicate number.
+     */
+    public static int findDuplicate(int[] numList) {
+        // create 2 pointers on the array
+        int i = numList[0];
+        int j = numList[0];
+        // iterate over the array as a "hashcode", each value is the hashcode for the next index.
+        // i jumps 1 time, j jumps twice. stop when they meet (a cycle has been closed).
+        do {
+            i = numList[i];
+            j = numList[numList[j]];
+        } while (i != j);
+        // find the originator of the cycle. use two pointers, one of the start and one of the end of the cycle.
+        // each time jump 1 index, and stop when we get to the duplicate.
+        int numCandidate1 = numList[0];
+        int numCandidate2 = i;
+        while (numCandidate1 != numCandidate2) {
+            numCandidate1 = numList[numCandidate1];
+            numCandidate2 = numList[numCandidate2];
+        }
+        return numCandidate2;
+    }
 
-int regularPointer = numList[0];
-int superPointer = numList[numList[0]];
-
-while (superPointer != regularPointer) {
-regularPointer = numList[regularPointer];
-superPointer = numList[numList[superPointer]];
-}
-
- while (superPointer != regularPointer) {
- regularPointer = numList[regularPointer];
- superPointer = numList[superPointer];
- }
- return regularPointer;
- }
-
-}
 ```
 [LeetCode Reference](https://leetcode.com/problems/find-the-duplicate-number/)
 
 [Explanation](https://www.youtube.com/watch?v=wjYnzkAhcNk)
-
-```
- // note that there is a duplicate iff there is cycle in the path created by
- // numList[0] -> numList[numList[0]] -> numList[numList[numList[0]]] -> ...
- // and if cycle does indeed exit then the duplicate is the first number that created the cycle.
- // the reason for that is that we refer to the array values as pointers to the array's indexes, so if x is a
- // duplicate then multiply nodes in the graph point to x.
- // the strategy is as follows:
- // 1. find the cycle -> 2. find the first number that created the cycle -> 3.return this number.
- ```
 
 🔼[Back To Top](#Index)
 
