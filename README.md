@@ -238,7 +238,7 @@ Feel free to contribute! 💻
 🔼[Back To Top](#Index)
 
 # Algorithms 
-  [Source Code by Omri Wolf]((https://github.com/idopinto/PrepForOopExam/blob/main/Exam%20Algorithms/Solutions.java))
+  [Source Code by Omri Wolf](https://github.com/idopinto/PrepForOopExam/blob/main/Exam%20Algorithms/Solutions.java)
 ## MinSumPath
 ```
  /***
