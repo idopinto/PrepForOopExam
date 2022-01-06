@@ -82,7 +82,41 @@ Feel free to contribute! 💻
 14. [Regex](#Regex)
 
 # Basic Java Syntax
+  - Data Types
+  - Declaring Variables in Java
+  - Arrays
+  - Java Keywords (static,final etc.)
+  - Operators in Java
+    - Arithmetic Operators
+    - Logical Operators
+    - Comparison Operators
+  - Java Program Structure
+  - **Visibility Modifiers**
+   
+   In Java, methods and data members of a class/interface can have one of the  
+    
+   following four access specifiers. 
+    
+   1. private (accessible within the class where defined)
+   2. default or package private (when no access specifier is specified)
+   3. protected 
+   4. public (accessible from any class)
 
+   But, the classes and interfaces themselves can have only two access specifiers
+   
+   when declared outside any other class.
+   
+   1. public
+   2. default (when no access specifier is specified)
+     
+   **Note** : Nested interfaces and classes can have all access specifiers.
+     
+
+
+  - Enum
+  - Useful libraries
+  - Packages
+  - Modules
 🔼[Back To Top](#Index)
 
 # Basic Compilation process in Java
