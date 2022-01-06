@@ -348,5 +348,9 @@ Feel free to contribute! 💻
 
 # Regex
 
+[RegexOne](https://regexone.com/) - A number of short and precise regex problems. General and not specifc to java.
+
+[Regex101](https://regex101.com/) - A regex playground that supports java with problems to solve using regex.
+
 🔼[Back To Top](#Index)
 
