@@ -27,42 +27,42 @@ Feel free to contribute! 💻
    - Packages
    - Modules
 2. [Basic Compilation process in Java](#Basic-Compilation-process-in-Java)
-  - JVM 
+   - JVM 
 3. [Basic OOP terminology](#Basic-OOP-terminology)
-  - information hiding
-  - Minimal API
-  - encapsulation
-  - Abstraction
-  - Polymorphism
-  - Inheritance
-  - Composition
-  - Interfaces
-  - Abstract class
+   - information hiding
+   - Minimal API
+   - encapsulation
+   - Abstraction
+   - Polymorphism
+   - Inheritance
+   - Composition
+   - Interfaces
+   - Abstract class
 4. [Basic OOP principles](#Basic-OOP-principles)
-  - Program to interface not implementation principle
-  - The single choice Principle
-  - Modularity principle
-  - Open-Closed prinicple
-  - Leskov substituion principle
+   - Program to interface not implementation principle
+   - The single choice Principle
+   - Modularity principle
+   - Open-Closed prinicple
+   - Leskov substituion principle
 5. [Algorithms](#Algorithms)
 6. [Exceptions](#Exceptions)
 7. [Java collections](#Java-collections)
 8. [Design Patterns](#Design-Patterns)
 9. [Generics](#Generics)
 10. [Functional Programming](#Functional-Programming)
-  - Local and Anonymous Classes
-  - Lambdas
-  - Functional Interfaces
-  - Java.util.functions
-  - Closures
-  - Callbacks
+    - Local and Anonymous Classes
+    - Lambdas
+    - Functional Interfaces
+    - Java.util.functions
+    - Closures
+    - Callbacks
 11. [UML](#UML)
 12. [Advanced topics in Java](#Advanced-topics-in-java)
-   - Serialization
-   - Reflection
-   - Copy Constructor
-   - Clone
-   - Frameworks (Spring)
+    - Serialization
+    - Reflection
+    - Copy Constructor
+    - Clone
+    - Frameworks (Spring)
 13. [Regex](#Regex)
 
 # Basic Java Syntax
