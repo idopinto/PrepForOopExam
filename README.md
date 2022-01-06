@@ -1,7 +1,7 @@
 # PrepForOopExam
 Hello everyone! 
  
-I assume that you're currently studying for your OOP exam and you are probably tired from exerice 5 , don't know how or from where to get all the needed information.
+I assume that you're currently studying for your OOP exam and you are probably tired from exercise 5 , don't know how or from where to get all the needed information.
 
 ME TOO! 
 
@@ -15,7 +15,7 @@ Feel free to contribute! 💻
 ### [Summary](https://github.com/idopinto/PrepForOopExam/tree/main/Notes)
 ### [Campus.il Course website (Hebrew)](https://courses.campus.gov.il/courses/course-v1:HUJI+ACD_RFP4_HUJI_OOP+2019_1/info)
 # Index
-1.[Basic Java syntax](#Basic-Java-Syntax)
+1. [Basic Java syntax](#Basic-Java-Syntax)
    - Data Types
    - Declaring Variables in Java
    - Arrays
@@ -48,26 +48,14 @@ Feel free to contribute! 💻
 6. [Exceptions](#Exceptions)
 7. [Java collections](#Java-collections)
 8. [Design Patterns](#Design-Patterns)
-   - Factory
-   - Decorator
-   - Iterator
-   - Strategy
-   - Singleton
-   - Observer
-   - State
-   - Facade
-   - Dependecy Injection
-   - Memento
 9. [Generics](#Generics)
-   - Wildcard
-   - Erasure
 10. [Functional Programming](#Functional-Programming)
-   - Local and Anonymous Classes
-   - Lambdas
-   - Functional Interfaces
-   - Java.util.functions
-   - Closures
-   - Callbacks
+  - Local and Anonymous Classes
+  - Lambdas
+  - Functional Interfaces
+  - Java.util.functions
+  - Closures
+  - Callbacks
 11. [UML](#UML)
 12. [Advanced topics in Java](#Advanced-topics-in-java)
    - Serialization
@@ -205,7 +193,7 @@ Feel free to contribute! 💻
 # Design Patterns
 [ALL-IN-ONE](https://java-design-patterns.com/patterns/) awesome website for diving into design patterns!
 
-[Ohad Klein Design pattern notes](https://github.com/idopinto/PrepForOopExam/blob/main/Notes/Oop%20Design%20Patterns.pdf)
+[Ohad Klein Design patterns](https://github.com/idopinto/PrepForOopExam/blob/main/Notes/Oop%20Design%20Patterns.pdf) Recommended 👑
 
   ### [Factory](https://java-design-patterns.com/patterns/factory/)
    [Dan Nirel - Factory](https://www.youtube.com/watch?time_continue=280&v=5xuoWMMr_mo&feature=emb_title)
@@ -236,7 +224,7 @@ Feel free to contribute! 💻
   ### [Facade](https://java-design-patterns.com/patterns/facade/) 
    [Derek Banas - Facade](https://www.youtube.com/watch?v=B1Y8fcYrz5o&list=PLF206E906175C7E07&index=14)
   
-  ### [Dependecy Injection](https://java-design-patterns.com/patterns/dependency-injection/) -> creational pattern
+  ### [Dependecy Injection](https://java-design-patterns.com/patterns/dependency-injection/)
    [DI pattern](https://www.youtube.com/watch?v=tW6UHD81SG0)
   
 🔼[Back To Top](#Index)
@@ -249,9 +237,9 @@ Feel free to contribute! 💻
 
 🔼[Back To Top](#Index)
 
-# [Algorithms](https://github.com/idopinto/PrepForOopExam/blob/main/Exam%20Algorithms/Solutions.java)
-
-## MinSumPath LeetCode question
+# Algorithms 
+  [Source Code by Omri Wolf]((https://github.com/idopinto/PrepForOopExam/blob/main/Exam%20Algorithms/Solutions.java))
+## MinSumPath
 ```
  /***
      * Given a grid of integers of size N x M finds the minimal sum of the path from the upper left corner
