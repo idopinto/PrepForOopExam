@@ -21,65 +21,61 @@ Feel free to contribute! 💻
    - Arrays
    - Java Keywords (static,final etc.)
    - Operators in Java
-     - Arithmetic Operators
-     - Logical Operators
-     - Comparison Operators
-   - Java Program Structure
    - Visibility Modifiers
    - Enum
-   - Useful libraries
+   - String
    - Packages
    - Modules
 2. [Basic Compilation process in Java](#Basic-Compilation-process-in-Java)
-   - JVM 
+  - JVM 
 3. [Basic OOP terminology](#Basic-OOP-terminology)
-   - information hiding
-   - Minimal API
-   - encapsulation
-   - Abstraction
-   - Polymorphism
-   - Inheritance
-   - Composition
-   - Interfaces
-   - Abstract class
+  - information hiding
+  - Minimal API
+  - encapsulation
+  - Abstraction
+  - Polymorphism
+  - Inheritance
+  - Composition
+  - Interfaces
+  - Abstract class
 4. [Basic OOP principles](#Basic-OOP-principles)
-   - Program to interface not implementation principle
-   - The single choice Principle
-   - Modularity principle
-   - Open-Closed prinicple
-   - Leskov substituion principle
+  - Program to interface not implementation principle
+  - The single choice Principle
+  - Modularity principle
+  - Open-Closed prinicple
+  - Leskov substituion principle
+5. [Algorithms](#Algorithms)
 6. [Exceptions](#Exceptions)
 7. [Java collections](#Java-collections)
 8. [Design Patterns](#Design-Patterns)
-    - Factory
-    - Decorator
-    - Iterator
-    - Strategy
-    - Singleton
-    - Observer
-    - State
-    - Facade
-    - Dependecy Injection
-    - Memento
+   - Factory
+   - Decorator
+   - Iterator
+   - Strategy
+   - Singleton
+   - Observer
+   - State
+   - Facade
+   - Dependecy Injection
+   - Memento
 9. [Generics](#Generics)
-    - Wildcard
-    - Erasure
+   - Wildcard
+   - Erasure
 10. [Functional Programming](#Functional-Programming)
-    - Local and Anonymous Classes
-    - Lambdas
-    - Functional Interfaces
-    - Java.util.functions
-    - Closures
-    - Callbacks
-11. [Algorithms](#Algorithms)
-12. [UML](#UML)
-13. [Advanced topics in Java](#Advanced-topics-in-java)
-    - Serialization
-    - Reflection
-    - Copy Constructor
-    - Clone
-    - Frameworks (Spring)
-14. [Regex](#Regex)
+   - Local and Anonymous Classes
+   - Lambdas
+   - Functional Interfaces
+   - Java.util.functions
+   - Closures
+   - Callbacks
+11. [UML](#UML)
+12. [Advanced topics in Java](#Advanced-topics-in-java)
+   - Serialization
+   - Reflection
+   - Copy Constructor
+   - Clone
+   - Frameworks (Spring)
+13. [Regex](#Regex)
 
 # Basic Java Syntax
 
@@ -137,8 +133,7 @@ Feel free to contribute! 💻
 ## Object, Class, Instance, Attributes
    - [Object](https://www.geeksforgeeks.org/classes-objects-java/) is a basic unit of Object-Oriented Programming and represents the real life entities.
    - [Class](https://www.geeksforgeeks.org/classes-objects-java/)
-   [Classes & Objects | Java | Mike Dane](https://www.youtube.com/watch?v=Mm06BuD3PlY)
-
+   
 🔼[Back To Top](#Index)
 
 # Basic OOP principles
