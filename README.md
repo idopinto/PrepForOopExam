@@ -189,6 +189,7 @@ Feel free to contribute! 💻
 
 # Design Patterns
 [ALL-IN-ONE](https://java-design-patterns.com/patterns/) awesome website for diving into design patterns!
+[Ohad Klein Design pattern notes](https://github.com/idopinto/PrepForOopExam/blob/main/Notes/Oop%20Design%20Patterns.pdf)
 
   ### [Factory](https://java-design-patterns.com/patterns/factory/) -> Creational pattern
    [Dan Nirel - Factory](https://www.youtube.com/watch?time_continue=280&v=5xuoWMMr_mo&feature=emb_title)
