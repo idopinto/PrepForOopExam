@@ -121,7 +121,7 @@ Feel free to contribute! 💻
 # Basic OOP principles
  ### [ALL-IN-ONE](https://java-design-patterns.com/principles/#openclosed-principle) all the OOP prinicples we've learned and more!    
    ### [SOLID](https://en.wikipedia.org/wiki/SOLID)
-   - [The Single Responsibility Principle](https://www.youtube.com/watch?v=DAD2oMWDWNc)
+   - [**The Single Responsibility Principle**](https://www.youtube.com/watch?v=DAD2oMWDWNc)
   
        A class should never have more than one reason to change.
        
@@ -135,7 +135,7 @@ Feel free to contribute! 💻
       
       **How?** Apply Curly's Law which means choosing a single, clearly defined goal for any particular bit of code: Do One Thing.
    
-   - The Open-Closed prinicple
+   - **The Open-Closed prinicple**
    
      Software entities should be open for extension, but closed for modification
      i.e. such an entity can allow its behavior to be modified without altering its source code.
@@ -146,12 +146,9 @@ Feel free to contribute! 💻
      
      Expose only the moving parts that need to change, hide everything else.
  
-  - [The Leskov substituion principle](https://www.youtube.com/watch?v=Orhu0x5aplI) 
-    ```
+  - [**The Leskov substituion principle**](https://www.youtube.com/watch?v=Orhu0x5aplI) 
     Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
-
-    ``` 
-  - [Modularity principle](https://www.youtube.com/watch?v=20JP8w6_nVA)
+  - [**Modularity principle**](https://www.youtube.com/watch?v=20JP8w6_nVA)
   
    #### [Program to interface not implementation principle](https://www.youtube.com/watch?v=F2DgzoIcufU)
 
@@ -189,6 +186,7 @@ Feel free to contribute! 💻
 
 # Design Patterns
 [ALL-IN-ONE](https://java-design-patterns.com/patterns/) awesome website for diving into design patterns!
+
 [Ohad Klein Design pattern notes](https://github.com/idopinto/PrepForOopExam/blob/main/Notes/Oop%20Design%20Patterns.pdf)
 
   ### [Factory](https://java-design-patterns.com/patterns/factory/) -> Creational pattern
@@ -269,16 +267,9 @@ public static int buildUniqueMorseCodeTable(String[] words, String[] morseSet) {
 }
 ```
 [LeetCode Reference](https://leetcode.com/problems/unique-morse-code-words/)
+
 [Explanation](https://www.youtube.com/watch?v=ZF7KWiYsI6I)
-```
- // note that there is a duplicate iff there is cycle in the path created by
- // numList[0] -> numList[numList[0]] -> numList[numList[numList[0]]] -> ...
- // and if cycle does indeed exit then the duplicate is the first number that created the cycle.
- // the reason for that is that we refer to the array values as pointers to the array's indexes, so if x is a
- // duplicate then multiply nodes in the graph point to x.
- // the strategy is as follows:
- // 1. find the cycle -> 2. find the first number that created the cycle -> 3.return this number.
- ```
+
  ## Find duplicate
 
 ```
@@ -309,7 +300,18 @@ superPointer = numList[numList[superPointer]];
 }
 ```
 [LeetCode Reference](https://leetcode.com/problems/find-the-duplicate-number/)
+
 [Explanation](https://www.youtube.com/watch?v=wjYnzkAhcNk)
+
+```
+ // note that there is a duplicate iff there is cycle in the path created by
+ // numList[0] -> numList[numList[0]] -> numList[numList[numList[0]]] -> ...
+ // and if cycle does indeed exit then the duplicate is the first number that created the cycle.
+ // the reason for that is that we refer to the array values as pointers to the array's indexes, so if x is a
+ // duplicate then multiply nodes in the graph point to x.
+ // the strategy is as follows:
+ // 1. find the cycle -> 2. find the first number that created the cycle -> 3.return this number.
+ ```
 
 🔼[Back To Top](#Index)
 
