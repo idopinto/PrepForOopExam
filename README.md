@@ -83,6 +83,20 @@ Feel free to contribute! 💻
 
 # Basic Java Syntax
 
+  ## **Java Keywords**
+  1. **null**
+   
+     ```
+     Bike example = null; // no object created here and example points to nothing
+     ```
+     ```
+     example.gear; //  accessing null object attributes leads to runtime errors
+     // NullPointerException
+     ```
+     ```
+     Bike example; // By default example value is null
+     ```
+     
   ## **Visibility Modifiers**
    
    In Java, methods and data members of a class/interface can have one of the  
@@ -102,6 +116,15 @@ Feel free to contribute! 💻
    2. default (when no access specifier is specified)
      
    **Note** : Nested interfaces and classes can have all access specifiers.
+   
+      ## [String Class](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+   The most common java class.
+   Altough it is no a primitive, can be initialized using the '=' sign.
+   ```
+   String myString = "hello"; // legal, just like writing new String("hello")
+   ```
+   String class has many important useful methods!  you can read more [HERE](https://stackabuse.com/common-string-operations-in-java/) about them.
+   String class is [immutable](https://www.youtube.com/watch?v=qbNMAJvv7qI) meaning we can't change the content of string.
  
 🔼[Back To Top](#Index)
 
@@ -189,33 +212,33 @@ Feel free to contribute! 💻
 
 [Ohad Klein Design pattern notes](https://github.com/idopinto/PrepForOopExam/blob/main/Notes/Oop%20Design%20Patterns.pdf)
 
-  ### [Factory](https://java-design-patterns.com/patterns/factory/) -> Creational pattern
+  ### [Factory](https://java-design-patterns.com/patterns/factory/)
    [Dan Nirel - Factory](https://www.youtube.com/watch?time_continue=280&v=5xuoWMMr_mo&feature=emb_title)
   
-  ### [Decorator](https://java-design-patterns.com/patterns/decorator/) -> structural pattern
+  ### [Decorator](https://java-design-patterns.com/patterns/decorator/) 
    [Derek Banas - Decorator](https://www.youtube.com/watch?v=j40kRwSm4VE)
   
-  ### [Iterator](https://java-design-patterns.com/patterns/iterator/) -> behavioral pattern
+  ### [Iterator](https://java-design-patterns.com/patterns/iterator/)
    [Derek Banas - Iterator](https://www.youtube.com/watch?v=VKIzUuMdmag&list=PLF206E906175C7E07&index=17)
 
-  ### [Strategy](https://java-design-patterns.com/patterns/strategy/) -> behavioral pattern
+  ### [Strategy](https://java-design-patterns.com/patterns/strategy/)
    [Derek Banas - Strategy](https://www.youtube.com/watch?v=j40kRwSm4VE)
 
-  ### [Singleton](https://java-design-patterns.com/patterns/singleton/) -> creational pattern
+  ### [Singleton](https://java-design-patterns.com/patterns/singleton/)
   [Derek Banas - Singleton](https://www.youtube.com/watch?v=NZaXM67fxbs&list=PLF206E906175C7E07&index=7)
 
-  ### [Observer](https://java-design-patterns.com/patterns/observer/) -> behavioral pattern
+  ### [Observer](https://java-design-patterns.com/patterns/observer/)
    [Derek Banas - Observer](https://www.youtube.com/watch?v=wiQdrH2YpT4&list=PLF206E906175C7E07&index=4)
    [How The Observer Pattern Works](https://www.youtube.com/watch?v=WRkw0l72BL4)
 
-  ### [State](https://java-design-patterns.com/patterns/state/) ->behavioral pattern
+  ### [State](https://java-design-patterns.com/patterns/state/)
 
    [Derek Banas - State](https://www.youtube.com/watch?v=MGEx35FjBuo&list=PLF206E906175C7E07&index=20)
 
-  ### [Memento](https://java-design-patterns.com/patterns/memento/) -> behavioral pattern
+  ### [Memento](https://java-design-patterns.com/patterns/memento/)
    [Derek Banas - Memento](https://www.youtube.com/watch?v=jOnxYT8Iaoo&list=PLF206E906175C7E07&index=25)
 
-  ### [Facade](https://java-design-patterns.com/patterns/facade/) -> structural pattern
+  ### [Facade](https://java-design-patterns.com/patterns/facade/) 
    [Derek Banas - Facade](https://www.youtube.com/watch?v=B1Y8fcYrz5o&list=PLF206E906175C7E07&index=14)
   
   ### [Dependecy Injection](https://java-design-patterns.com/patterns/dependency-injection/) -> creational pattern
