@@ -121,6 +121,12 @@ Feel free to contribute! 💻
 ## Object, Class, Instance, Attributes
    - [Object](https://www.geeksforgeeks.org/classes-objects-java/) is a basic unit of Object-Oriented Programming and represents the real life entities.
    - [Class](https://www.geeksforgeeks.org/classes-objects-java/)
+
+## Abstract class
+![alt text](https://static.javatpoint.com/images/abstract-class-in-java.jpg)
+
+[Abstract class](https://www.javatpoint.com/abstract-class-in-java)
+
    
 🔼[Back To Top](#Index)
 
