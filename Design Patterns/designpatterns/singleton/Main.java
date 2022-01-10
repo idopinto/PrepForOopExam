@@ -5,7 +5,6 @@ package designpatterns.singleton;
  */
 public class Main {
     public static void main(String[] args) {
-        //TODO fix in ipad - static and etc
         LambdaMaker lambdaMaker = new LambdaMaker();
         NameGenerator nameGenerator = new NameGenerator();
         Singleton.getInstance().logToSingleton(
