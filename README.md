@@ -16,34 +16,9 @@ Feel free to contribute! 💻
 ### [Campus.il Course website (Hebrew)](https://courses.campus.gov.il/courses/course-v1:HUJI+ACD_RFP4_HUJI_OOP+2019_1/info)
 # Index
 1. [Basic Java syntax](#Basic-Java-Syntax)
-   - Data Types
-   - Declaring Variables in Java
-   - Arrays
-   - Java Keywords (static,final etc.)
-   - Operators in Java
-   - Visibility Modifiers
-   - Enum
-   - String
-   - Packages
-   - Modules
-2. [Basic Compilation process in Java](#Basic-Compilation-process-in-Java)
-   - JVM 
+2. [Basic Compilation process in Java](#Basic-Compilation-process-in-Java) 
 3. [Basic OOP terminology](#Basic-OOP-terminology)
-   - information hiding
-   - Minimal API
-   - encapsulation
-   - Abstraction
-   - Polymorphism
-   - Inheritance
-   - Composition
-   - Interfaces
-   - Abstract class
 4. [Basic OOP principles](#Basic-OOP-principles)
-   - Program to interface not implementation principle
-   - The single choice Principle
-   - Modularity principle
-   - Open-Closed prinicple
-   - Leskov substituion principle
 5. [Algorithms](#Algorithms)
 6. [Exceptions](#Exceptions)
 7. [Java collections](#Java-collections)
@@ -118,6 +93,42 @@ Feel free to contribute! 💻
 🔼[Back To Top](#Index)
 
 # Basic OOP terminology
+1. Information Hiding:
+
+Information hiding is a programming concept that refers to the practice of hiding the details of an object or method from the outside world, while exposing only what is necessary for the user to interact with it. This helps to reduce the complexity of the system and make it easier to maintain and modify. In Java, information hiding can be achieved using access modifiers like private, protected, and public.
+
+2. Minimal API:
+
+A Minimal API is a lightweight and simple programming interface that provides a limited set of functionalities to perform specific tasks. The aim of a Minimal API is to simplify the programming experience and reduce the learning curve for developers. In Java, Minimal APIs can be created using frameworks like Micronaut and Quarkus.
+
+3. Encapsulation:
+
+Encapsulation is a programming concept that refers to the practice of hiding the internal workings of an object from the outside world, and only exposing a public interface for interaction. This means that the internal state of an object is protected from unauthorized access or modification. Encapsulation helps to improve the reliability, maintainability, and reusability of the code.
+
+4. Abstraction:
+
+Abstraction is a programming concept that refers to the practice of representing complex real-world entities as simple and abstract objects in code. This means that only the essential features and behavior of an object are exposed to the user, while the implementation details are hidden. Abstraction helps to reduce the complexity of the code and make it easier to understand and modify.
+
+5. Polymorphism:
+
+Polymorphism is a programming concept that refers to the ability of an object or method to take on multiple forms or behaviors depending on the context in which it is used. Polymorphism allows different objects to be treated as if they are of the same type, and can help to simplify the code and improve its flexibility.
+
+6, Inheritance:
+
+Inheritance is a programming concept that allows a new class to be based on an existing class, inheriting all of its properties and methods. The new class, called the derived class or subclass, can then add new functionality or modify the behavior of the inherited methods. Inheritance helps to reduce code duplication and improve code reusability.
+
+7. Composition:
+
+Composition is a programming concept that allows an object to be composed of other objects as its parts. This means that the behavior and properties of the composed object are determined by the behavior and properties of its parts. Composition helps to achieve code reuse and make the code more modular and flexible.
+
+8. Interfaces:
+
+An interface is a programming construct that defines a set of methods and properties that must be implemented by any class that implements the interface. Interfaces allow for code reuse and allow for polymorphism by allowing different classes to implement the same interface. In Java, interfaces can be used to create contracts between different classes, defining what methods must be implemented.
+
+9. Abstract class:
+An abstract class is a class that cannot be instantiated, and is intended to be subclassed by other classes. Abstract classes can define abstract methods, which are methods without an implementation, that must be implemented by the subclass. Abstract classes can provide a common interface for related classes, and help to achieve code reuse and polymorphism.
+
+
 ## Object, Class, Instance, Attributes
    - [Object](https://www.geeksforgeeks.org/classes-objects-java/) is a basic unit of Object-Oriented Programming and represents the real life entities.
    - [Class](https://www.geeksforgeeks.org/classes-objects-java/)
